@@ -3,7 +3,9 @@ import { Header } from './Components/header'
 
 import './global.css';
 import { NewTask } from './Components/Newtask';
+import { EmptyTask } from './Components/EmptyTask';
 import { Task } from './Components/Task';
+import { HeaderTask } from './Components/HeaderTask';
 
 function App() {
 
@@ -11,9 +13,10 @@ function App() {
     <>
       <Header/>
       <NewTask/>
+      <HeaderTask/>
+      <EmptyTask/>
       <Task/>
     
-
     </>
   )
 }
