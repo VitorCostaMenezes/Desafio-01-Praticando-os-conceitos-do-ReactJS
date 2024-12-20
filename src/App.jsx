@@ -13,9 +13,9 @@ function App() {
     <>
       <Header/>
       <NewTask/>
-      <HeaderTask/>
-      <EmptyTask/>
-      <Task/>
+      {/* <HeaderTask/> */}
+      {/* <EmptyTask/> */}
+      {/* <Task/> */}
     
     </>
   )

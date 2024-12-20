@@ -40,6 +40,7 @@
     border: 0;
     width: 39.875rem;
     margin-right: 0.5rem;
+    color: var(--gray-100);
 }
 /* 
 .pluscircle{
